@@ -14,8 +14,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -29,7 +29,12 @@
     <groupId>io.temporal</groupId>
     <artifactId>temporal-sdk</artifactId>
     <version>1.23.0</version>
-</dependency>
+    </dependency>
+    <dependency>
+    <groupId>ch.qos.logback</groupId>
+    <artifactId>logback-classic</artifactId>
+    <version>1.4.11</version> <!-- Use latest compatible version -->
+    </dependency>
   </dependencies>
 
   <build>
